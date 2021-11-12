@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Roboto&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+img{
+  margin-left: 450px;
+  margin-top: 30px;
+  border-style: double;
+  border-color: orange;
+}
+.menu{
+  background-color: pink;
+  overflow: hidden;
+}
+.menu a{
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "montserrat";
+  color: black;
+}
+
+.menu a:hover{
+  background-color: orange;
+  color: black;
+}
+
+
+
+h1{
+  text-align: center;
+  font-family: montserrat;
+  color: orange;
+}
+
+h3{
+  text-align: center;
+}
+
+a{
+  text-decoration: red;
+
+
+}
+.images{
+  width: 50vw;
+  height: 100vh;
+  float: left;
+}
+
+.bw{
+  position: absolute;
+  left: -20%;
+  /*margin-left: 100px;*/
+
+}
+.dots{
+  position: absolute;
+  top: 50%;
+  left: -30%;
+
+}
+
+
+.text {
+    
+      width: 50vw;
+   height: 100vh;
+   position: absolute;
+   right: 0%;
+   background-color: #EBBA88;
+
+}
+
+.text p{
+  text-align: right;
+  font-family: montserrat;
+  padding: 10px;
+}
+
+.olympics{
+  position: absolute;
+  margin-left: 110px;
+}
+
+.kodak{
+  position: absolute;
+  right: 10%;
+}
+
+.cinema{
+  position: absolute;
+  top: 70%;
+  left: -23%;
+}
+
+.palms{
+  position: absolute;
+  top: 70%;
+  right: 10%;
+}
+
+.santamonica{
+  position: absolute;
+  top: 125%;
+  left: -23%;
+} 
+
+.kirk{
+  position: absolute;
+  top: 125%;
+  right: 10%;
+}
+
+
+label{
+  font-family: montserrat;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: montserrat;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: orange;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: montserrat;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #EBBA88;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  width: 50%;
+  position: absolute; right: 0px;
+  border-radius: 5px;
+  background-color: #F0C4DF;
+  padding: 20px;
+}
+
+.contactimage{
+  float: left;
+  position: absolute; left: -28%;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
